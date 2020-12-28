@@ -1,0 +1,290 @@
+html,
+body {
+  font-family:"Trajan Pro Regular", "EB Garamond" ,serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: white;
+}
+h1{
+    font-size: 3.75rem;
+}
+h2{
+    font-size: 1.875rem;
+    color:#917513;
+}
+
+h3{
+    font-size: 1.125rem;
+    color: #444444;
+}
+
+.quote-text{ 
+    min-height: 200px;
+    min-width: 200px;
+    font-family: 'EB Garamond', serif;
+    color: #444444;
+    font-size: 1.4rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+header{
+  width:100%;
+  height: 85px; 
+  background-color: white; 
+  display:flex;
+  justify-content: center;
+  position:fixed;
+  top: 0;
+  
+}
+
+.logo{
+    width: 130px;
+    height: 85px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+.navbar li{
+    text-transform: uppercase;
+    padding: 12px 30px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 1rem;
+    font-family: 'Trajan', 'EB Garamond', serif;
+
+}
+.navbar{
+    display:flex;
+    background-color: #041e42;
+    width: 100%;
+    margin-top: 0;
+    justify-content: center;
+    height: 40px;
+    position: fixed;
+    top: 85px;
+    flex-wrap: wrap;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.cool-link::after{
+content: '';
+display: block;
+width: 0;
+height: 2px;
+background: #fff;
+transition: width 0.3s;
+
+}
+.cool-link:hover::after{
+    width: 100%;
+    transition: width 0.3s;
+
+}
+.banner-container {
+    height: 700px;
+    max-width: 1200px;
+    background-image:url("https://warriorshavewounds.github.io/wise/ban.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 40px auto;
+
+}
+
+.banner-text{
+    width: 100%;
+    margin: auto;
+}
+.b{
+    font-size: 6.25rem;
+    text-align: center;
+    color: seashell;
+    font-family: Trajan Bold;
+}
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    height: auto;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+
+.gallery-item img{
+    max-width: 550px;
+    height: 450px;
+    padding:10px 10px;
+    display:block;
+    border: 2px solid #917513;
+    border-radius: 4px;
+}
+
+
+.initial-container{
+    background-image: url("https://warriorshavewounds.github.io/wise/lg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.init1, .des {
+color: seashell;
+}
+.init1{
+    margin-left:5%;
+}
+.init2,.init3{
+    margin-left:5%;
+}
+
+.p1{
+    text-align: center;
+}
+.Quotes{
+    width: 85%;
+    margin:auto;
+    background-color: #fff;
+}
+.Quotes1{
+    border: 1px solid #917513;
+    border-radius: 15px;
+    justify-content: center;
+}
+.quote-text{
+    text-align: center;
+    align-items: center;
+}
+.quotes-head{
+    text-align: center;
+}
+
+.brown{
+    color:#917513;
+    text-align: center;  
+}
+
+#whw, #abc, #freebies {
+
+    width: 86%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.post {
+    width: 60%;
+    margin-bottom:7.5%;
+    margin-top: 12.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.8;
+    color: #444444;
+  }
+
+.Home, .Abc, .Freebies{
+    text-align: center;
+    color:#917513;
+}
+
+.story{
+    color: #917513;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3A3B3C;
+    color:seashell;
+    font-family: 'EB Garamond', serif;
+    padding-bottom: 2%;
+
+}
+.social{
+text-align: center;
+    color:seashell;
+    margin-top: 2%;
+}
+.foto{
+    display:flex;
+  margin-top:2%;
+  margin-right:3%;  
+}
+.fot{ 
+    margin-left:2%;
+}
+@media only screen and (max-width: 960px) {
+    .post{
+      padding-top:0;
+    }
+   }
+   @media only screen and (max-width: 700px) {
+     .Quotes1.{
+       border: none;
+     }
+     
+     .b{
+         font-size:3.75rem;
+     }
+     .navbar a{
+         display:none;
+     }
+     .gallery-item{
+         display:none;
+     }
+     .gallery-item img{
+         display:none;
+     }
+     .b{
+        font-size:3.50rem;
+        color:#917513;
+    }
+    p{
+        font-size:16px;
+   }
+   .init3, .p1{
+       display: none;
+   }
+}
+   @media only screen and (max-width: 470px) {
+      h1 { font-size: 2rem}
+     .gallery-item img, .init2 {
+     display: block;
+     width: 100%;
+     margin: 0;
+   }
+   .b{
+       font-size:3.50rem;
+       color:#917513;
+   }
+   p{
+       font-size:16px;
+   }
+   .foto{
+       display:none;
+   }
+   .fot{
+       display:none;
+   }
+   .navbar a{
+       display:none;
+   }
+   .gallery-item{
+       display:none;
+   }
+   .gallery-item img{
+       display:none;
+   }
+   .init3, .p1{
+       display:none
+   }
+}
