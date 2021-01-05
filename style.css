@@ -219,10 +219,13 @@ color: seashell;
     border-radius: 5px;
 
     cursor: pointer;
+    margin-bottom: 80%;
 }
 .groto{
     max-width: 550px;
     height: auto;
+    border:1px solid #917513;
+    border-radius: 10px;
 }
 #grot{
 cursor: pointer;
