@@ -86,7 +86,7 @@ transition: width 0.3s;
 .banner-container {
     height: 700px;
     max-width: 1200px;
-    background-image:url("https://warriorshavewounds.github.io/wise/ban.webp");
+    background-image:url("https://warriorshavewounds.github.io/wise/lg.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -126,7 +126,7 @@ transition: width 0.3s;
 
 
 .initial-container{
-    background-image: url("https://warriorshavewounds.github.io/wise/lg.webp");
+    background-image: url("https://warriorshavewounds.github.io/wise/ban.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -201,7 +201,7 @@ color: seashell;
     color: #917513;
 }
 #fortune{
-    color: #EFBB24;
+    color: #FF6900;
     font-size: 24px;
     text-align: center;
 }
