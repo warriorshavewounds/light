@@ -106,11 +106,12 @@ transition: width 0.3s;
     font-family: Trajan Bold;
 }
 .gallery-container{
+    height: calc(100vh-20px);
+    width: calc(100vh-20px);
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
-    height: auto;
     justify-content: center;
+    align-content: center;
     overflow: hidden;
     margin-bottom: 10%;
 }
@@ -138,10 +139,12 @@ color: seashell;
 .init1{
     margin-left:5%;
 }
-.init2,.init3{
+.init2 {
     margin-left:5%;
 }
-
+.init3 {
+    text-align: center;
+}
 .p1{
     text-align: center;
 }
