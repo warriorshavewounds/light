@@ -332,4 +332,7 @@ text-align: center;
    .init3, .p1{
        display:none
    }
+   .social {
+       margin-left: 5%;
+   }
 }
