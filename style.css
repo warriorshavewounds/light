@@ -157,6 +157,16 @@ color: seashell;
     border: 1px solid #917513;
     border-radius: 15px;
     justify-content: center;
+    background-image: url('https://www.warriorshavewounds.github.io/light/auth.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+Quotes2 {
+    background-image: url('https://www.warriorshavewounds.github.io/light/aut.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .quote-text{
     text-align: center;
