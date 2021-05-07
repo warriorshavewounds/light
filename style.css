@@ -258,6 +258,9 @@ text-align: center;
     color:seashell;
     margin-top: 2%;
 }
+#des {
+    text-align: center;
+}
 .foto{
     display:flex;
   margin-top:2%;
