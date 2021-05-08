@@ -283,12 +283,6 @@ text-align: center;
      .navbar a{
          display:none;
      }
-     .gallery-item{
-         display:none;
-     }
-     .gallery-item img{
-         display:none;
-     }
      .b{
         font-size:3.50rem;
         color:#917513;
@@ -296,9 +290,11 @@ text-align: center;
     p{
         font-size:16px;
    }
-   .init3, .p1{
-       display: none;
-   }
+   .gallery-item img {
+    width:300px;
+    height:200px;
+    display:block;
+}
 }
    @media only screen and (max-width: 470px) {
       h1 { font-size: 2rem}
