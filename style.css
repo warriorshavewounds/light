@@ -86,7 +86,7 @@ transition: width 0.3s;
 .banner-container {
     height: 700px;
     max-width: 1200px;
-    background-image:url("https://warriorshavewounds.github.io/wise/lg.webp");
+    background-image:url("https://warriorshavewounds.github.io/wise/lg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -127,7 +127,7 @@ transition: width 0.3s;
 
 
 .initial-container{
-    background-image: url("https://warriorshavewounds.github.io/wise/ban.webp");
+    background-image: url("https://warriorshavewounds.github.io/wise/ban.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -157,13 +157,13 @@ color: seashell;
     border: 1px solid #917513;
     border-radius: 15px;
     justify-content: center;
-    background-image: url("https://warriorshavewounds.github.io/wise/auth.webp");
+    background-image: url("https://warriorshavewounds.github.io/wise/auth.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .Quotes2 {
-    background-image: url("https://warriorshavewounds.github.io/wise/aut.webp");
+    background-image: url("https://warriorshavewounds.github.io/wise/aut.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -323,16 +323,18 @@ text-align: center;
    .navbar a{
        display:none;
    }
-   .gallery-item{
-       display: none;
-   }
-   .gallery-item img{
-     display: none;  
-   }
-   .init3, .p1{
-       display:none
-   }
    .social {
        margin-left: 8%;
    }
-}
+   .gallery-item img {
+       width:300px;
+       height:200px;
+       display:block;
+   }
+   .groto{
+    width: 300px;
+    height: 200px;
+    border:1px solid #917513;
+    border-radius: 10px;
+    }
+   }
