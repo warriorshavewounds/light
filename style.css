@@ -324,10 +324,10 @@ text-align: center;
        display:none;
    }
    .gallery-item{
-       
+       display: none;
    }
    .gallery-item img{
-       
+     display: none;  
    }
    .init3, .p1{
        display:none
