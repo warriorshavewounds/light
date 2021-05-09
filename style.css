@@ -295,6 +295,7 @@ text-align: center;
     height:200px;
     display:block;
 }
+
 }
    @media only screen and (max-width: 470px) {
       h1 { font-size: 2rem}
@@ -327,5 +328,8 @@ text-align: center;
     height: 200px;
     border:1px solid #917513;
     border-radius: 10px;
+    }
+    .initial-container {
+        display: none;
     }
    }
