@@ -342,4 +342,7 @@ text-align: center;
     .nit2 {
         text-align: center;
     }
+    #hit {
+        background-color: crimson;
+    }
    }
