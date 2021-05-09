@@ -344,5 +344,7 @@ text-align: center;
     }
     #hit {
         background-color: #f56991;
+        color:white
+        font-weight: bold;
     }
    }
