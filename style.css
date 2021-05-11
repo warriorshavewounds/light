@@ -364,7 +364,6 @@ text-align: center;
     }
     .navdoor{
         line-height: 70px;
-        padding-top: 50px;
     }
     .navbar {
         display: none;
@@ -378,7 +377,7 @@ text-align: center;
     
     .navbar a {
         display:block;
-        border-bottom: 1px solid #eaeaeb;
+        border-bottom: 1px solid saddlebrown;
         margin:0px;
     }
     #toggle:checked + .menue {
