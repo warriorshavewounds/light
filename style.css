@@ -334,4 +334,7 @@ text-align: center;
     border:1px solid #917513;
     border-radius: 10px;
     }
+    .initial-container {
+        display: none;
+    }
 }
