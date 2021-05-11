@@ -73,6 +73,7 @@ label {
     font-size: 26px;
     line-height: 40px;
     float: right;
+    display: none;
 }
 
 .navbar li a{
