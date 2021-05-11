@@ -337,7 +337,14 @@ text-align: center;
     .initial-container {
         background-image: none;
     }
-    .nit2 {
+    .nit2, .init2 {
         text-align: center;
+    }
+    .gallery-item img {
+        text-align: center;
+        width:90%;
+        height:200px;
+        display:block;
+        
     }
 }
