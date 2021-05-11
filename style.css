@@ -1,3 +1,9 @@
+
+ *{
+    box-sizing: border-box;
+    margin: 0px;
+ }
+
 html,
 body {
   font-family:"Trajan Pro Regular", "EB Garamond" ,serif;
@@ -44,43 +50,31 @@ header{
     height: 85px;
     filter: drop-shadow(1px 1px 1px black);
 }
+
 .navbar li{
     text-transform: uppercase;
-    padding: 0 20px;
+    padding: 12px 30px;
     font-weight: bold;
     display: inline-block;
     font-size: 1rem;
     font-family: 'Trajan', 'EB Garamond', serif;
 
 }
-
-.navdoor{
-    
+.navbar{
+    display:flex;
     background-color: #041e42;
     width: 100%;
+    margin-top: 0;
+    justify-content: center;
     height: 40px;
     position: fixed;
     top: 85px;
-    text-align: center;
-    border-bottom: 1px solid blanchedalmond;
+    flex-wrap: wrap;
 }
-#toggle {
-    display: none;
-}
-label {
-    margin: 0px 70px 20px 0;
-    color:blanchedalmond;
-    font-size: 26px;
-    line-height: 40px;
-    float: right;
-    display: none;
-}
-.navbar li a {
-    clear: right;
+
+.navbar a{
     text-decoration: none;
-    color:saddlebrown;
-    margin:0 10px;
-    line-height: 70px;
+    color: white;
 }
 .cool-link::after{
 content: '';
@@ -286,12 +280,6 @@ text-align: center;
 .fot{ 
     margin-left:2%;
 }
-@media only screen and (max-width: 960px) {
-    
-    .post{
-      padding-top:0;
-    }
-   }
    @media only screen and (max-width: 700px) {
      .Quotes1.{
        border: none;
@@ -346,41 +334,4 @@ text-align: center;
     border:1px solid #917513;
     border-radius: 10px;
     }
-    .initial-container {
-        background-image: none;
-        
-    }
-    .nit2 {
-        text-align: center;
-    }
-    #hit {
-        background-color: #f56991;
-        color:white;
-        font-weight: bold;
-    }
-    label {
-        display: block;
-        cursor: pointer;
-    }
-    .navdoor{
-        line-height: 70px;
-    }
-    .navbar {
-        display: none;
-        text-align: center;
-        width: 95%;
-    }
-    label {
-        display: block;
-        cursor:pointer;
-    }
-    
-    .navbar li {
-        display:block;
-        border-bottom: 1px solid saddlebrown;
-        margin:0px;
-    }
-    #toggle:checked + .navbar {
-        display: block;
-   }
 }
