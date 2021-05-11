@@ -380,7 +380,7 @@ text-align: center;
         border-bottom: 1px solid saddlebrown;
         margin:0px;
     }
-    #toggle:checked + .menue {
+    #toggle:checked + .navbar {
         display: block;
    }
 }
