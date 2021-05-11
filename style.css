@@ -385,7 +385,7 @@ label {
     border-bottom:1px solid saddlebrown;
     margin: 0;
     color: slateblue;
-    line-height: 70px;
+    line-height: 50px;
 }
 #toggle:checked + .menu li {
     display: block;
