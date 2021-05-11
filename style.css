@@ -50,6 +50,12 @@ header{
     height: 85px;
     filter: drop-shadow(1px 1px 1px black);
 }
+.menu {
+    text-align: center;
+}
+.menu li a {
+    clear:right;
+}
 
 .navbar li{
     text-transform: uppercase;
@@ -61,7 +67,7 @@ header{
 
 }
 .navbar{
-    display:flex;
+    align-items: center;
     background-color: #041e42;
     width: 100%;
     margin-top: 0;
@@ -69,12 +75,23 @@ header{
     height: 40px;
     position: fixed;
     top: 85px;
-    flex-wrap: wrap;
 }
 
 .navbar a{
     text-decoration: none;
     color: white;
+}
+#toggle {
+    display: none;
+}
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 40px;
+    width: 26px;
+    float:right;
+    color:blanchedalmond;
+    display: none;
 }
 .cool-link::after{
 content: '';
@@ -351,5 +368,26 @@ text-align: center;
     color:blanchedalmond;
     font-weight: 500;
     text-align: center;
+}
+label {
+    display: block;
+    cursor: pointer;
+    
+}
+.menu li {
+    display:none;
+    text-align: center;
+    width: 100%;
+
+}
+.menu li a {
+    display: block;
+    border-bottom:1px solid saddlebrown;
+    margin: 0;
+    color: slateblue;
+    line-height: 70px;
+}
+#toggle:checked + .menu li {
+    display: block;
 }
    }
