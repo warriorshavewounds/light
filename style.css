@@ -340,7 +340,7 @@ text-align: center;
     .nit2, .init2 {
         text-align: center;
     }
-    .gallery-item img {
+    .gallery-item {
         text-align: center;
         width:90%;
         height:200px;
