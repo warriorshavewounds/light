@@ -337,13 +337,7 @@ text-align: center;
     .initial-container {
         background-image: none;
     }
-    .nit2, .init2 {
-        text-align: center;
-    }
     .gallery-item {
-        text-align: center;
-        width:90%;
-        height:200px;
-        
+        width: 90%;
     }
 }
