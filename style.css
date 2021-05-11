@@ -75,10 +75,12 @@ label {
     float: right;
     display: none;
 }
-
-.navbar li a{
+.navbar li a {
+    clear: right;
     text-decoration: none;
-    color: white;
+    color:saddlebrown;
+    margin:0 10px;
+    line-height: 70px;
 }
 .cool-link::after{
 content: '';
@@ -362,22 +364,24 @@ text-align: center;
     }
     .navdoor{
         line-height: 70px;
-    }
-    .navbar {
-        text-align: center;
-        width: 100%;
-        display: none;
         padding-top: 50px;
     }
-    .navbar li a {
-        color:saddlebrown
+    .navbar {
+        display: none;
+        text-align: center;
+        width: 95%;
     }
-    .navbar li {
+    label {
         display: block;
-        border-bottom: 1px solid #917513;
-        margin: 0px;
+        cursor:pointer;
     }
-    #toggle:checked + .navbar {
+    
+    .navbar a {
+        display:block;
+        border-bottom: 1px solid #eaeaeb;
+        margin:0px;
+    }
+    #toggle:checked + .menue {
         display: block;
-    }
    }
+}
