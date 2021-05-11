@@ -46,26 +46,36 @@ header{
 }
 .navbar li{
     text-transform: uppercase;
-    padding: 12px 30px;
+    padding: 0 20px;
     font-weight: bold;
     display: inline-block;
     font-size: 1rem;
     font-family: 'Trajan', 'EB Garamond', serif;
 
 }
-.navbar{
-    display:flex;
+
+.navdoor{
+    
     background-color: #041e42;
     width: 100%;
-    margin-top: 0;
-    justify-content: center;
     height: 40px;
     position: fixed;
     top: 85px;
-    flex-wrap: wrap;
+    text-align: center;
+    border-bottom: 1px solid blanchedalmond;
+}
+#toggle {
+    display: none;
+}
+label {
+    margin: 0px 70px 20px 0;
+    color:blanchedalmond;
+    font-size: 26px;
+    line-height: 40px;
+    float: right;
 }
 
-.navbar a{
+.navbar li a{
     text-decoration: none;
     color: white;
 }
@@ -274,6 +284,7 @@ text-align: center;
     margin-left:2%;
 }
 @media only screen and (max-width: 960px) {
+    
     .post{
       padding-top:0;
     }
@@ -323,9 +334,6 @@ text-align: center;
    .fot{
        display:none;
    }
-   .navbar a{
-       display:none;
-   }
    .social {
        margin-left: 8%;
    }
@@ -346,5 +354,29 @@ text-align: center;
         background-color: #f56991;
         color:white;
         font-weight: bold;
+    }
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .navdoor{
+        line-height: 70px;
+    }
+    .navbar {
+        text-align: center;
+        width: 100%;
+        display: none;
+        padding-top: 50px;
+    }
+    .navbar li a {
+        color:saddlebrown
+    }
+    .navbar li {
+        display: block;
+        border-bottom: 1px solid #917513;
+        margin: 0px;
+    }
+    #toggle:checked + .navbar {
+        display: block;
     }
    }
