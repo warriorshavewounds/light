@@ -1,4 +1,8 @@
-
+@font-face {
+    font-family: 'short stack';
+    src:url('Short_Stack/ShortStack-Regular.ttf');
+}
+ 
  *{
     box-sizing: border-box;
     margin: 0px;
@@ -236,6 +240,16 @@ color: seashell;
 
 .story{
     color: #917513;
+    font-size: 1.5rem;
+}
+.story-game {
+    color: #917513;
+    font-family: 'short stack';
+    font-size: 1.5rem;  
+    padding: 10px;
+}
+#hit {
+    font-family: 'short stack';
 }
 .storye {
     background-image: url("https://warriorshavewounds.github.io/light/good.jpg");
@@ -247,6 +261,7 @@ color: seashell;
     color:#FF6900;
     font-size: 24px;
     text-align: center;
+    font-family: 'short stack';
 }
 
 #buttonContainer{
@@ -260,7 +275,7 @@ color: seashell;
     background: white;
     border: 5px solid #ed7f20;
     border-radius: 5px;
-
+    font-family: 'short stack';
     cursor: pointer;
     margin-bottom: 150px;
 }
@@ -269,6 +284,7 @@ color: seashell;
     height: auto;
     border:1px solid #917513;
     border-radius: 10px;
+    margin-top: 2%;
 }
 #grot{
 cursor: pointer;
@@ -297,6 +313,7 @@ text-align: center;
 .fot{ 
     margin-left:2%;
 }
+
    @media only screen and (max-width: 700px) {
      .Quotes1.{
        border: none;
@@ -364,6 +381,7 @@ text-align: center;
     text-align: center;
 }
 #hit {
+    font-family: 'short stack';
     background-color: #ed7f20;
     color:blanchedalmond;
     font-weight: 500;
