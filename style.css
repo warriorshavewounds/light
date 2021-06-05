@@ -172,9 +172,12 @@ color: seashell;
 }
 .init3 {
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 .p1{
     text-align: center;
+    padding:0.75rem 1rem;
 }
 .Quotes{
     width: 85%;
@@ -202,6 +205,7 @@ color: seashell;
 }
 .quotes-head{
     text-align: center;
+    margin-bottom: 3%;
 }
 
 .brown{
