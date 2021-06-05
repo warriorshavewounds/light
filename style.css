@@ -389,6 +389,9 @@ text-align: center;
     margin: auto;
     
 }
+.p1 {
+    margin:0.35rem 0.10rem;
+}
 #hit {
     font-family: 'short stack';
     background-color: #ed7f20;
