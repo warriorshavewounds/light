@@ -336,6 +336,7 @@ text-align: center;
     width:95%;
     height:200px;
     display:block;
+    margin: 2% auto;
 }
 
 }
@@ -344,7 +345,7 @@ text-align: center;
      .gallery-item img, .init2 {
      display: block;
      width: 90%;
-     margin: 0;
+     margin: 2% auto;
    }
    .b{
        font-size:3.50rem;
@@ -367,18 +368,23 @@ text-align: center;
     height: 200px;
     border:1px solid #917513;
     border-radius: 10px;
+    margin:auto;
     }
     .initial-container {
         background-image: none;
     }
     .gallery-item {
         width: 90%;
+        margin:2% auto;
     }
     .nit2 {
         text-align: center;
+        margin:auto;
     }
  .init2 {
     text-align: center;
+    margin: auto;
+    
 }
 #hit {
     font-family: 'short stack';
