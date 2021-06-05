@@ -177,7 +177,7 @@ color: seashell;
 }
 .p1{
     text-align: center;
-    padding:0.75rem 1rem;
+    padding:0.75rem 0.20rem;
 }
 .Quotes{
     width: 85%;
@@ -372,7 +372,6 @@ text-align: center;
     height: 200px;
     border:1px solid #917513;
     border-radius: 10px;
-    margin:auto;
     }
     .initial-container {
         background-image: none;
