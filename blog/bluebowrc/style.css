@@ -1,0 +1,134 @@
+body {
+	background: #e6e6e6;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #5552fc;
+	display: table;
+	width: 100%;
+}
+
+nav li {
+	display: table-cell
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1.875rem 1.875rem;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #4d4afb;
+}
+h1{
+	color: #041e42;
+}
+
+h2 a {
+	padding: 2.06rem 1.56rem;
+	color: white;
+	text-decoration: none;
+}
+
+h2 a:hover {
+	background-color: #5e2c04;
+}
+
+figcaption{
+  text-align:left;
+}
+
+header {
+	margin-left: 0.875rem;
+	text-align: center;
+}
+
+article {
+	text-align: left;
+	margin: 1rem;
+	max-width: 80%;
+	font-size: 1.125rem;
+	line-height: 2rem;
+}
+
+img {
+	width: 80%;
+	height: 80%;
+  position:relative;
+  right: 1rem;
+}
+.hope {
+    text-align: center;
+	
+}
+.hope img {
+	max-width: 700px;
+	max-height: 600px;
+}
+button a {
+	color: #4d4afb;
+	text-decoration: none;
+}
+button {
+	border-radius: 5px;
+	border: 1px solid #010e80;
+}
+aside {
+	left: 10px;
+	border: 1px solid black;
+	padding: 15px;
+	max-width: 80%;
+	position: relative;
+	border-color: #010e80;
+	border-width: 5px;
+	font-size: 18px;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	bottom: -100px;
+	background-color: #5552fc;
+}
+
+footer p {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+}
+
+video {
+	display: block;
+	width: 420px;
+	height: 250px;
+  padding:15px;
+}
+
+audio {
+	padding: 15px;
+	width: 98%;
+  box-sizing: border-box;
+}
+
+embed {
+	width: 400px;
+	height: 458px;
+  padding:15px;
+}
